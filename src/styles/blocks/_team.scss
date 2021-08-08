@@ -9,14 +9,16 @@
     text-align: center;
     color: #D46240;
   }
-  
+
+  // .team-elements {
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   background-position: center;
+  //   height: 297px;
+  //   width: 297px;
+  // }
+
   .team-elements {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 297px;
-    width: 297px;
-  
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -25,17 +27,17 @@
     text-align: center;
     color: #FBF2DA;
   }
-  
+
   .team-about {
     font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 36px;
     /* align-items: center; */
-  
+
     color: #152B3C;
   }
-  
+
   .team-about-text {
     text-align: left;
     font-family: "Open Sans", sans-serif;
@@ -45,19 +47,27 @@
     line-height: 27px;
     color: #152B3C;
   }
-  
+
+  .team-photo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 297px;
+    width: 297px;
+  }
+
   .team-lee-1 {
     background-image: url(../images/sir_lee_wow_1.jpg);
   }
-  
+
   .team-penelope {
     background-image: url(../images/penelope.jpg);
   }
-  
+
   .team-mr {
     background-image: url(../images/mr_v_v.jpg);
   }
-  
+
   .team-lee-2 {
     background-image: url(../images/sir_lee_wow_2.jpg);
   }
