@@ -1,0 +1,86 @@
+/* Контакты */
+.contacts-header {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 58px;
+    line-height: 68px;
+    text-align: center;
+    color: #D46240;
+  }
+  
+  .contacts-text {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #152B3C;
+  
+    width: 1060px;
+    height: 84px;
+    border: 1px solid #000;   /* временно */
+  }
+  
+  .input-name {
+    background-color: #fbf2da;
+    border-radius: 8px;
+  }
+  
+  .input-phone {
+    background-color: #fbf2da;
+    border-radius: 8px;
+  }
+  
+  .input-description {
+    background-color: #fbf2da;
+    border-radius: 8px;
+    width: 842px;
+    height: 167px;
+  
+  
+  /* sand */
+  
+  background: #FBF2DA;
+  border-radius: 8px;
+  }
+  
+  .contacts-title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    /* text-align: center; */
+    color: #D46240;
+  }
+  
+  .jackdaw {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .contacts-send {
+  
+  }
+  
+  .contacts-btn {
+    width: 842px;
+    height: 63px;
+    background: #D46240;
+    border-radius: 5px;
+    }
+  
+  .contacts-btn-font {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+  
+    align-items: center;
+    text-align: center;
+  
+    color: #FFFFFF;
+  }

@@ -1,0 +1,57 @@
+/* Локации */
+.location-header {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 58px;
+    line-height: 68px;
+    text-align: center;
+    color: #D46240;
+  }
+  
+  .location-elements {
+    background-repeat: no-repeat;   /* изображение не повторяется */
+    background-size: cover;   /* масштабирование изображения максимально большим с сохранением пропорций */
+    background-position: center;   /* центруем изображение */
+    height: 272px;
+    width: 624px;
+  }
+  
+  .location-elements-header {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: #FBF2DA;
+    text-align: letf; /*выравнивание текста влево в родительском блоке */
+  }
+  
+  .location-elements-text {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #fbf2da;
+    text-align: left;
+    text-decoration: none;
+  }
+  
+  .location-wrap a:hover {
+    color:#d46240;
+  }
+  
+  .location-fortes {
+    background-image: url(../images/fortes.png);
+  }
+  
+  .location-lighthouses {
+    background-image: url(../images/osinovets_lighthouses.png);
+  }
+  
+  .location-beach {
+    background-image: url(../images/laska_bitch.png);
+  }
+  
+  .location-park {
+    background-image: url(../images/park_300th_anniversary.png);
+  }

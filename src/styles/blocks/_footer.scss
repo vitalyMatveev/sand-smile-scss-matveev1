@@ -1,0 +1,26 @@
+/* Подвал */
+
+.footer-wrap {
+    height: 87px;
+  background: #152B3C;
+}
+
+.footer-text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FBF2DA;
+  /* color: yellow; */
+}
+
+.footer-icon {
+  /* background: #FBF2DA; */
+  width: 26px;
+  height: 26px;
+}
+
+.footer-list {
+  display: flex;
+}

@@ -1,27 +1,57 @@
+// .promo {
+//   padding: 50px 0;
+//   background-color: lightsteelblue;
+// }
+
+// .promo-inner {
+//   margin: 0 auto;
+//   width: 1024px;
+
+//   @media (max-width: 1279px) {
+//     width: auto;
+//     max-width: 1024px;
+//   }
+// }
+
+// .promo-ttl {
+//   font-size: $h1-fz-desktop;
+//   font-weight: $h1-fw;
+
+//   @media (max-width: 1279px) {
+//     font-size: $h1-fz-tablet;
+//   }
+
+//   @media (max-width: 669px) {
+//     font-size: $h1-fz-mobile;
+//   }
+// }
+
+/* Промо */
 .promo {
-  padding: 50px 0;
-  background-color: lightsteelblue;
-}
-
-.promo-inner {
-  margin: 0 auto;
-  width: 1024px;
-
-  @media (max-width: 1279px) {
-    width: auto;
-    max-width: 1024px;
+    text-align: center;    /* выравнивание линейного содержимого (текста) по центру в родительском блоке */
+    background-image: url(../images/castle.jpg);
+    background-repeat: no-repeat;   /* изображение не повторяется */
+    background-size: cover;   /* масштабирование изображения максимально большим с сохранением пропорций */
+    background-position: center;   /* центруем изображение */
+    height: 100%;
   }
-}
-
-.promo-ttl {
-  font-size: $h1-fz-desktop;
-  font-weight: $h1-fw;
-
-  @media (max-width: 1279px) {
-    font-size: $h1-fz-tablet;
+  
+  .promo-bg {
+    background-color: rgba(45, 45, 45, 0.4);
+    height: 100%;
+    border: 1px solid #000;    /* временно */
   }
-
-  @media (max-width: 669px) {
-    font-size: $h1-fz-mobile;
+  
+  .promo-about {
+    margin: 130px 0 235px 0;
   }
-}
+  
+  
+  .promo-info {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    color: #ffffff;
+   }
+  

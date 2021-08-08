@@ -1,0 +1,33 @@
+/* Шапка сайта */
+.header {
+    background-color: #152b3c;
+    }
+    
+    .header-wrap {
+      display: flex;
+      align-items: center;   /* выравнивание по поперечной оси применяется к родит. эл-ту для flex блоков */
+    }
+    
+    .phone {
+      margin-left: 20px;
+    }
+    
+    .main-logo {
+      margin-right: auto;
+      font-family: Raleway,sans-serif;
+      font-weight: 300;
+      font-size: 42px;
+    }
+    
+    .phone {
+      font-family: Roboto;
+      font-size: 28px;
+    }
+    
+    .main-logo,
+    .phone {
+      color: #fbf2da;
+      text-decoration: none;   /* без оформления */
+    }
+    
+   

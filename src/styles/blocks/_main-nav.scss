@@ -1,0 +1,33 @@
+.main-nav {
+    text-align: center;   /* не заметил никакой разницы  */
+  }
+  
+  .main-nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-nav li {
+    display: inline-block;   /* расположить в одну строку */
+  }
+  
+  .main-nav a {
+    display: block;
+    padding: 36px 25px;   /* 36 верх и низ 25 слева и справа */
+    font-weight: normal;   /* нормальное начертание 400 */
+    font-size: 24px;
+    color: #fbf2da;
+    text-decoration: none;   /* удаляет оформление(подчеркивание) */
+    text-transform: none;   /* регистр не меняется */
+  }
+  
+  .main-nav a:hover {
+    color: #d46240;
+  } /* псевдокласс hover применяется для выделения при наведении курсора мыши */
+  
+  .main-nav .active {
+    /* background-color: #d46240; */
+    color: #d46240;
+  } /* первоначально выделенный элемент навигации */
+  
+  
