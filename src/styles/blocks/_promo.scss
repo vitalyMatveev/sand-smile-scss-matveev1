@@ -27,26 +27,28 @@
 // }
 
 /* Промо */
+
 .promo {
-    text-align: center;    /* выравнивание линейного содержимого (текста) по центру в родительском блоке */
-    background-image: url(../images/castle.jpg);
-    background-repeat: no-repeat;   /* изображение не повторяется */
-    background-size: cover;   /* масштабирование изображения максимально большим с сохранением пропорций */
-    background-position: center;   /* центруем изображение */
-    // height: 100%;
-    // height: 650px;
-    // width: 1440px;
-    width: 100%;
-  }
+  text-align: center;
+  background-image: url(/images/castle.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
 
-  .promo-bg {
-    background-color: rgba(45, 45, 45, 0.4);
-    height: 100%;
-    border: 1px solid #000;    /* временно */
-  }
+.promo-bg {
+  padding-top: 191px;
+  padding-bottom: 235px;
+  background-color: rgba(21, 43, 60, 0.4);
+}
 
-  .promo-about {
-    margin: 130px 0 235px 0;
+.promo-title {
+  font-family: Raleway, sans-serif;
+  font-weight: 300;
+  font-size: 116px;
+  text-align: center;
+  color: #ffffff;
   }
 
   .promo-info {
@@ -55,4 +57,4 @@
     font-size: 32px;
     text-align: center;
     color: #ffffff;
-   }
+  }

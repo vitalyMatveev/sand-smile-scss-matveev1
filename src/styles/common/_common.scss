@@ -1,41 +1,44 @@
-/* Общие стили */
+  /* Общие стили */
 * {
-    box-sizing: border-box;   /* все границы и отступы учитывать в ширине и высоте элемента */
-  }
-  
-  body {
-    margin: 0;
-    font-family: "Open Sans", sans-serif;   /* после запятой альтернативный шрифт */
-  }
-  
-  h1 {
-    font-family: Raleway, sans-serif;
-    font-weight: 300;
-    font-size: 116px;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  h2 {
-    font-size: 58px;
-    line-height: 68px;   /* расстояние между стороками */
-  }
-  
-  p {
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  text-align: center;
-  color: #152B3C;
-  }
-  
-  .container {
-    width: 1280px;
-    margin: 0 auto;    /* если определены 2 значения то первое отступ сверху второе внешний отступ левой и правой стороны */
-  }
-  
-  img {
-    display: block;   /* картинки расположены в столбик */
-    width: 100%;
-  }
+  box-sizing: border-box;   /* все границы и отступы учитывать в ширине и высоте элемента */
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;   /* после запятой альтернативный шрифт */
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;    /* если определены 2 значения то первое отступ сверху второе внешний отступ левой и правой стороны */
+}
+
+img {
+  display: block;   /* картинки расположены в столбик */
+  width: 100%;
+}
+
+
+
+
+// h1 {
+  //   font-family: Raleway, sans-serif;
+  //   font-weight: 300;
+  //   font-size: 116px;
+  //   text-align: center;
+  //   color: #ffffff;
+  // }
+
+  // h2 {
+    //   font-size: 58px;
+  //   line-height: 68px;   /* расстояние между стороками */
+  // }
+
+  // p {
+  // font-family: "Open Sans", sans-serif;
+  // font-style: normal;
+  // font-weight: 300;
+  // font-size: 18px;
+  // text-align: center;
+  // color: #152B3C;
+  // }
